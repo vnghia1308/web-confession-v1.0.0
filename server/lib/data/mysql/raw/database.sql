@@ -7,10 +7,6 @@
 -- Phiên bản máy phục vụ: 5.5.31
 -- Phiên bản PHP: 5.6.30
 
-------------------
--- Nghia is Gay --
-------------------
-
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
 START TRANSACTION;
