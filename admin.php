@@ -220,7 +220,7 @@ endif;
 <?php 
 	switch($_GET['page']){
 		case null:
-			$query = 'SELECT * FROM `post`';
+			$query = 'SELECT * FROM `post` `approval` = 0';
 			break;
 		case 'approval':
 			$query = 'SELECT * FROM `post` WHERE `approval` = 1';
