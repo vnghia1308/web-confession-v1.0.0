@@ -71,7 +71,7 @@ textarea {
 <!-- current page -->
 <div class="row wrapper border-bottom white-bg page-heading">
 <div class="col-lg-10">
-<h2>Bảng tin</h2>
+<h2><?php if(!$_SESSION['admin']) echo 'Đăng nhập'; else if($_GET['page'] == null or $_GET['page'] == 'home') echo 'Trang chủ'; if($_GET['page'] == 'approval') echo 'Quản lý bài đăng đã phê duyệt'; if($_GET['page'] == 'change') echo 'Thay đổi mật khẩu';?></h2>
 <ol class="breadcrumb">
 <li>
 <a href="/">Trang chủ</a>
