@@ -1,0 +1,11 @@
+RewriteEngine On
+
+# Home
+RewriteRule ^home/?$ index.php [L]
+
+# Admin
+RewriteRule ^admin/?$ admin.php [L]
+RewriteRule ^admin/(.*)/?$ admin.php?page=$1 [QSA,L]
+
+# Install
+RewriteRule ^install/?$ install.php [L]
