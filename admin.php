@@ -19,7 +19,7 @@ error_reporting(0);
 <link href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.6.4/sweetalert2.css" rel="stylesheet" type="text/css">
 <style>
 textarea {
-     	width: 100%;
+     width: 100%;
 	 height: 100px;
 	 resize: none;
      -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
@@ -72,10 +72,11 @@ textarea {
 <div class="row wrapper border-bottom white-bg page-heading">
 <div class="col-lg-10">
 <h2><?php if(!$_SESSION['admin']) echo 'Đăng nhập'; 
-else 
-	if($_GET['page'] == null or $_GET['page'] == 'home') echo 'Trang chủ'; 
-		if($_GET['page'] == 'approval') echo 'Quản lý bài đăng đã phê duyệt'; 
-			if($_GET['page'] == 'change') echo 'Thay đổi mật khẩu';?></h2>
+switch($_GET['page']){
+	case null: echo 'Trang chủ'; break;
+	case 'change': echo 'Thay đổi thông tin đăng nhập'; break;
+	case 'approval': echo 'Bài viết đã phê duyệt'; break;
+} ?></h2>
 <ol class="breadcrumb">
 <li>
 <a href="/">Trang chủ</a>

@@ -92,11 +92,7 @@ textarea {
 <p></p>
 <div class="">
 <small>Danh tính của bạn sẽ được che dấu, sẽ không ai biết bạn là ai (ngay cả quản trị viên website).</small>
-<?php if($_COOKIE['posted']): ?>
-<button type="submit" style="float: right; overflow: hidden" id="postSubmit" class="btn btn-success btn-rounded btn-sm" disabled>Tiếp tục trong 1 giờ sau</button>
-<?php else: ?>
 <button type="submit" style="float: right; overflow: hidden" id="postSubmit" class="btn btn-success btn-rounded btn-sm">Đăng bài viết</button>
-<?php endif; ?>
 <div style="clear: both;"></div>
 </div>
 </form>
@@ -109,7 +105,6 @@ textarea {
 </div>
 
 <hr>
-<div id="post">
 <div id="post">
 <?php
 if($_GET['p'] == null)
@@ -133,7 +128,6 @@ $pst = new Website; ?>
 </div>
 <?php 
 endwhile;?>
-</div>
 </div>
 </div>
 
