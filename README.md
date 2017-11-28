@@ -8,14 +8,13 @@ Web Confession - giúp bạn xây dựng 1 hệ thống Confession (chia sẻ t�
 <br>
 Admin Page: http://domain.com/admin<br>
 <br>
--- Tác giả: Vy Nghĩa (Nghia is Gay)<br>
--- Fanpage: https://www.facebook.com/NghiaisGay<br>
-<br>
 [Mật khẩu]<br>
 Install: nghiametrai<br>
 Admin:<br>
 - Tài khoản: admin<br>
-- Mật khẩu: nghiametrai<br>
+- Mật khẩu: nghiametrai<br><br>
+-- Tác giả: Vy Nghĩa (Nghia is Gay)<br>
+-- Fanpage: https://www.facebook.com/NghiaisGay<br>
 <br>
 <br>
 ---<br>
