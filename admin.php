@@ -19,7 +19,7 @@ error_reporting(0);
 <link href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.6.4/sweetalert2.css" rel="stylesheet" type="text/css">
 <style>
 textarea {
-     width: 100%;
+     width: 100px;
 	 height: 100px;
 	 resize: none;
      -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
