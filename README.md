@@ -6,7 +6,7 @@ Web Confession - giúp bạn xây dựng 1 hệ thống Confession (chia sẻ t�
 *Nếu database không tự động nạp thì các bạn vào server/lib/data/mysql/raw để lấy file database.sql (file sql thủ công) để import vào mysql nhé!<br>
 *Các bạn xài cPanel chú ý: lỗi ở trên không phải do code, có thể bạn chưa cài đặt full quyền<br> 
 <br>
-Admin Page: http://domain.com/admin<br>
+Admin Page: http://domain.com/admin
 <br>
 [Mật khẩu]<br>
 Install: nghiametrai<br>
@@ -18,4 +18,4 @@ Admin:<br>
 <br>
 <br>
 ---<br>
-© 2017 Vy Nghia
+© 2020 Vy Nghia
