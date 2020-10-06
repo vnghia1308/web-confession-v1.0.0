@@ -143,7 +143,7 @@ textarea {
 endif;
 ?>
 </div>
-<!-- POST AREA -->
+<!-- Post here -->
 <div class="social-body">
 <?php if(!$_SESSION['install']): ?>
 <form id="Login" method="POST" action="" class="form-horizontal">
